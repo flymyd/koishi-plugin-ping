@@ -1,13 +1,21 @@
 {
   "name": "koishi-plugin-ping",
-  "description": "a ping plugin",
-  "version": "0.0.1",
+  "description": "A ping tool",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "contributors": [
+    "flymyd <flymyd@foxmail.com>"
+  ],
+  "homepage": "https://github.com/flymyd/koishi-plugin-ping",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flymyd/koishi-plugin-ping.git"
+  },
   "license": "MIT",
   "scripts": {},
   "keywords": [
@@ -17,5 +25,13 @@
   ],
   "peerDependencies": {
     "koishi": "^4.14.2"
+  },
+  "koishi": {
+    "description": {
+      "zh": "一个ping工具"
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
